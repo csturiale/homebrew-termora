@@ -1,19 +1,19 @@
 class TermoraCli < Formula
   desc "Command-line companion of Termora: list and open saved hosts"
   homepage "https://termoraplus.com"
-  version "0.0.4"
+  version "0.0.5"
   license :cannot_represent
 
   on_macos do
     depends_on arch: :arm64
     url "https://termoraplus.com/downloads/v#{version}/termora-cli-macos-arm64"
-    sha256 "21f72b9b472c6cc3e6d5193cbb87ffe6ddc4e1dbb5983d426aa1c1ccfc8a7486"
+    sha256 "8a2424bdd70700cd28209ae61965de57be1144d4fee4ad1f64cbdeb6e3523ca5"
   end
 
   on_linux do
     depends_on arch: :x86_64
     url "https://termoraplus.com/downloads/v#{version}/termora-cli-linux-amd64"
-    sha256 "c9b485d8d5a11f86e07461ba9d04eb2ab5cf4ea869d3801a7412b9b822ffb525"
+    sha256 "7ebb6ac62c41e3fa02cdde0feb4722e68e5c7d12df4355527295a94915cda647"
   end
 
   livecheck do

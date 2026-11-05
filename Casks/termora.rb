@@ -1,6 +1,6 @@
 cask "termora" do
-  version "0.0.4"
-  sha256 "b16e2fdbdd9cd540d39eea50104382670b772654284af2720b489beb1a42fe96"
+  version "0.0.5"
+  sha256 "5034883208b86fee80a57591ac99dc95dcb0abe83a590923f97e6cc1ad8ccc1d"
 
   url "https://termoraplus.com/downloads/v#{version}/termora-#{version}-macos-arm64.dmg"
   name "Termora"
